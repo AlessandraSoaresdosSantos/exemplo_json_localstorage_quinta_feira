@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="https://www.datacenterknowledge.com/sites/datacenterknowledge.com/files/wp-content/uploads/2013/04/linux-tux.png" alt="Tux" />
+        <div>
+            <a href="home.html">Home</a>
+        </div>
+    </nav>
+    <main>
+        <h3></h3>
+        <hr />
+        <div class="alinhamento">
+            <form action="#">
+                <div class="form-parts">
+                    <label for="nome">Favor inserir seu endereço </label>
+                    <br>
+                    <input type="text" required pattern="[0-9-a-zA-Záãâéêíîóôõú,\s]+$" minlength="3" id="endereco" placeholder="Favor digitar endereço *"></input>
+                    <br>
+                    <button id="btnCadastrar">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="alinhamento-vertical">
+            <ul id="listaEnderecos">
+
+            </ul>
+        </div>
+    </main>
+
+    <footer> </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
